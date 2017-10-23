@@ -3,7 +3,7 @@ $(function() {
   // $('h1').fontFlex(36, 48, 120);
   $("#typing-text").typed({
       strings: [
-        "DESIGNER.", "DEVELOPER.", "UX DESINGNER.", "SCRUMMASTER.", "SEO LOVER."
+        "DESIGNER.", "DEVELOPER.", "UX DESIGNER.", "SCRUMMASTER.", "SEO LOVER."
       ],
       typeSpeed: 100,
       backDelay: 2000,

@@ -107,9 +107,8 @@ a:hover,a:focus {
 		color:#333;
 			background:#fff;
 	}
-	.navbar-custom.top-nav-collapse a {
-		color:#333;
-		display:inline-block;
+	.navbar-custom.top-nav-collapse img {
+		content:url('../img/BM-zwart.png');
 	}
 }
 .intro {
@@ -119,7 +118,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../img/alpaca.jpg');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(https://images.unsplash.com/photo-1506279356375-03d7adc614a4?w=3066);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;

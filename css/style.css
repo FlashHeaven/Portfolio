@@ -91,6 +91,14 @@ a:hover,a:focus {
 .navbar-custom .nav li.active a:hover {
 	color:#1ba39c;
 }
+
+@media (min-width:320px)  {
+    .navbar-custom img {
+        height: 10%;
+        width: 10%;
+	}
+}
+
 @media(min-width:768px) {
 	.navbar-custom {
 		padding:20px 0;
@@ -110,7 +118,14 @@ a:hover,a:focus {
 	.navbar-custom.top-nav-collapse img {
 		content:url('../img/BM-zwart.png');
 	}
+    
+    .navbar-custom img {
+        height: 55%;
+        width: 45%;
+	}
 }
+
+
 .intro {
 	display:table;
 	width:100%;
@@ -406,6 +421,13 @@ section {
 	color:#333;
 	overflow:hidden;
 }
+
+#school{
+	background-color:#4E4E4E;
+	color:#fff;
+	overflow:hidden;
+}
+
 .done {
 	display:none;
 }
@@ -449,11 +471,29 @@ section #school{
 	background-color: black;
 }
 
-.round {
+.round img {
 	position: relative;
-	top: 50%;
-	left: 50%;
-	margin-left: -16%;
+	bottom: 10%;
+}
+
+@media (min-width:320px)  {
+    .round {
+        position: relative;
+        left: 27%;
+        margin-bottom: 4%;
+        overflow: hidden;
+        height: 252px;
+        width: 252px;
+        -moz-border-radius: 126px;
+        border-radius: 126px;
+        box-shadow: 0 0 10px #666;
+    }
+}
+
+@media(min-width:768px) {
+    .round {
+	position: relative;
+	left: 35%;
 	margin-bottom: 4%;
 	overflow: hidden;
 	height: 252px;
@@ -461,11 +501,9 @@ section #school{
 	-moz-border-radius: 126px;
 	border-radius: 126px;
 	box-shadow: 0 0 10px #666;
+  }
 }
-.round img {
-	position: relative;
-	bottom: 10%;
-}
+
 
 
 

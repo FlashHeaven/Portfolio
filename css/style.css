@@ -81,7 +81,7 @@ a:hover,a:focus {
 }
 .navbar-custom .nav li a:hover {
 	outline:0;
-	color:#1ba39c;
+	color:deeppink;
 	background-color:transparent;
 }
 .navbar-custom .nav li a:focus,.navbar-custom .nav li a:active {
@@ -92,10 +92,10 @@ a:hover,a:focus {
 	outline:0;
 }
 .navbar-custom .nav li.active a {
-	color:#1ba39c;
+	color:#D8BF9A;
 }
 .navbar-custom .nav li.active a:hover {
-	color:#1ba39c;
+	color:#D8BF9A;
 }
 
 @media (min-width:320px)  {

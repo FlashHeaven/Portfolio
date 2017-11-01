@@ -1,0 +1,44 @@
+.profile {
+  position: relative;
+  margin: 6vh auto 40px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: url(../img/Profilepic.jpeg) 0 0 no-repeat;
+  background-size: 300px 350px;
+  background-repeat: no-repeat;
+  -webkit-animation: focus ease-in-out infinite 7s;
+  -moz-animation: focus ease-in-out infinite 7s;
+  animation: focus ease-in-out infinite 7s;
+  position: relative;
+	bottom: 10%;
+    background-position-y: -30px;
+    background-position-x: -60px;
+}
+
+.hello {
+  position: absolute;
+  top: -30px;
+  left: -30%;
+  margin-right: -0.1em;
+  padding: 10px 15px;
+  border-radius: 7px;
+  background: #ddd;
+  color: #555;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+.hello::before {
+  content: ' ';
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  border-left: 20px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 15px solid #ddd;
+  width: 0; 
+  height: 0; 
+  
+}

@@ -1,0 +1,88 @@
+.title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.divider {
+  border-bottom: 1px solid grey;
+}
+
+.cards {
+  background: #f2f2f2;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 17em;
+  padding: 1.5em;
+  position: relative;
+  -webkit-transition: height 0.4s, box-shadow 0.5s;
+  transition: height 0.4s, box-shadow 0.5s;
+  margin-bottom:40px;
+}
+.cards:hover {
+  box-shadow: 0 0 2em #999;
+  height: 33em;
+  -webkit-transition: height 0.3s ease, box-shadow 0.5s ease;
+  transition: height 0.3s ease, box-shadow 0.5s ease;
+}
+.cards:hover .divider {
+  opacity: 0.5;
+}
+.cards:hover .info {
+  -webkit-transition: top 0.5s ease, opacity 1s ease;
+  transition: top 0.5s ease, opacity 1s ease;
+  visibility: visible;
+  top: 1%;
+  opacity: 1;
+}
+.cards:hover .icon {
+  font-size: 2em;
+  left: 45%;
+  -webkit-transition: font-size .3s, left .3s;
+  transition: font-size .3s, left .3s;
+}
+.cards .info {
+  position: relative;
+  visibility: hidden;
+  top: -50%;
+  opacity: 0;
+  font-size: 10px;
+}
+.cards .icon {
+  color: #D8BF9A;
+  font-size: 4em;
+  text-align: center;
+  padding: 0em;
+  position: relative;
+  left: 43%;
+  top: 0em;
+  -webkit-transition: font-size .3s ease, left .3s ease;
+  transition: font-size .3s ease, left .3s ease;
+}
+.cards .title {
+  color: grey;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Jaapokki', sans-serif;
+}
+.cards .lead {
+  color: black;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+.cards .btn {
+  color: #D8BF9A;
+  border: 1px solid #D8BF9A;
+  border-radius: 3px;
+  -webkit-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s;
+}
+.cards .btn:hover {
+  background: #D8BF9A;
+  color: #fff;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}

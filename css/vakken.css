@@ -58,6 +58,7 @@
   -webkit-transition: font-size .3s ease, left .3s ease;
   transition: font-size .3s ease, left .3s ease;
 }
+
 .cards .title {
   color: grey;
   text-align: center;

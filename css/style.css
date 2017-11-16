@@ -80,7 +80,7 @@ a:hover,a:focus {
 }
 .navbar-custom .nav li a:hover {
 	outline:0;
-	color:deeppink;
+	color:#E0382D;
 	background-color:transparent;
 }
 .navbar-custom .nav li a:focus,.navbar-custom .nav li a:active {
@@ -152,8 +152,7 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(../img/SCO.jpg);
-    background-position: bottom
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(../img/SCO/SCO.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -167,8 +166,37 @@ a:hover,a:focus {
 	padding:100px 0 100px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(../img/ux/ux.jpg);
-    background-position: bottom
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(../img/UX/ux.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+
+#DED{
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(../img/DED/ded.jpg);
+    background-position-y: 550px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+
+#SCRUM{
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(../img/SCRUM/scrum.jpg);
+    background-position:center;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -214,6 +242,16 @@ a:hover,a:focus {
     }
     
     #UX{
+		height:50%;
+		padding:0;
+	}
+    
+    #DED{
+		height:50%;
+		padding:0;
+	}
+    
+    #SCRUM{
 		height:50%;
 		padding:0;
 	}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Gallery - say goodbye to white Borders around images!</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h2>Instagram Gallery</h2>
+<h3>Say goodbye to white Borders around images!</h3>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<div id="instagram_gallery"></div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#instagram_gallery").instaGallery({
+        userId: 4071061570,
+        accessToken: '4071061570.1677ed0.fb3de9ea5bbc4e368309a55956cecbbb',
+        limit: 12,
+        resolution: 'high', // low, medium, high
+
+    });
+});
+</script>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

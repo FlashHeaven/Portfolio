@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Allow: /index.html
+Allow: /ux.html
+Allow: /sco.html
+Allow: /ded.html
+Allow: /scrum.html
+
+Sitemap: http://www.basvanmontfort.nl/sitemap.xml

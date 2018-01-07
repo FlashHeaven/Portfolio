@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} !^www.basvanmontfort.nl$ [NC]
+RewriteRule ^(.*)$ http://www.basvanmontfort.nl/$1 [L,R=301]
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]

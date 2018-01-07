@@ -635,6 +635,16 @@ section #school{
     margin-top: 15%;
 }
 
+#typing-text{
+    text-transform: uppercase;
+}
+
+#mailbas{
+    border-bottom:1px dashed #ccc;
+        unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
 
 
 
